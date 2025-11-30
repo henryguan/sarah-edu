@@ -15,42 +15,42 @@ To prove trigonometric identities effectively, you often need to use standard al
 
 ### 2. Primary and Reciprocal Ratios (Right Triangles)
 
-[cite_start]The reciprocal trigonometric ratios are defined as 1 divided by each of the primary trigonometric ratios[cite: 256].
+The reciprocal trigonometric ratios are defined as 1 divided by each of the primary trigonometric ratios.
 
 | Ratio Name | Abbreviation | Definition | Relationship |
 | :--- | :--- | :--- | :--- |
-| **Sine** | $\sin~\theta$ | $\frac{\text{opposite}}{\text{hypotenuse}}$ | [cite_start]Primary Ratio [cite: 193] |
-| **Cosine** | $\cos~\theta$ | $\frac{\text{adjacent}}{\text{hypotenuse}}$ | [cite_start]Primary Ratio [cite: 193] |
-| **Tangent** | $\tan~\theta$ | $\frac{\text{opposite}}{\text{adjacent}}$ | [cite_start]Primary Ratio [cite: 193] |
-| **Cosecant** | $\csc~\theta$ | $\frac{\text{hypotenuse}}{\text{opposite}}$ | [cite_start]$\csc~\theta = \frac{1}{\sin~\theta}$ [cite: 257] |
-| **Secant** | $\sec~\theta$ | $\frac{\text{hypotenuse}}{\text{adjacent}}$ | [cite_start]$\sec~\theta = \frac{1}{\cos~\theta}$ [cite: 257] |
-| **Cotangent** | $\cot~\theta$ | $\frac{\text{adjacent}}{\text{opposite}}$ | [cite_start]$\cot~\theta = \frac{1}{\tan~\theta}$ [cite: 257] |
+| **Sine** | $\sin~\theta$ | $\frac{\text{opposite}}{\text{hypotenuse}}$ | Primary Ratio |
+| **Cosine** | $\cos~\theta$ | $\frac{\text{adjacent}}{\text{hypotenuse}}$ | Primary Ratio |
+| **Tangent** | $\tan~\theta$ | $\frac{\text{opposite}}{\text{adjacent}}$ | Primary Ratio |
+| **Cosecant** | $\csc~\theta$ | $\frac{\text{hypotenuse}}{\text{opposite}}$ | $\csc~\theta = \frac{1}{\sin~\theta}$ |
+| **Secant** | $\sec~\theta$ | $\frac{\text{hypotenuse}}{\text{adjacent}}$ | $\sec~\theta = \frac{1}{\cos~\theta}$ |
+| **Cotangent** | $\cot~\theta$ | $\frac{\text{adjacent}}{\text{opposite}}$ | $\cot~\theta = \frac{1}{\tan~\theta}$ |
 
 #### Important Notes for Right Triangles:
-* **Calculators:** Most calculators do not have buttons for $\csc, \sec, \cot$. [cite_start]To evaluate them, use the reciprocal of the primary ratio (e.g., for $\sec~20^{\circ}$, calculate $1 \div \cos~20^{\circ}$)[cite: 260].
-* [cite_start]**Inverse Functions:** Use $\sin^{-1}$, $\cos^{-1}$, and $\tan^{-1}$ to determine the angle associated with a specific ratio[cite: 250].
+* **Calculators:** Most calculators do not have buttons for $\csc, \sec, \cot$. To evaluate them, use the reciprocal of the primary ratio (e.g., for $\sec~20^{\circ}$, calculate $1 \div \cos~20^{\circ}$).
+* **Inverse Functions:** Use $\sin^{-1}$, $\cos^{-1}$, and $\tan^{-1}$ to determine the angle associated with a specific ratio.
 
 ***
 
 ### 3. Trigonometric Identities
 
-[cite_start]A trigonometric identity is an equation involving trigonometric ratios that is true for all values of the variable[cite: 667].
+A trigonometric identity is an equation involving trigonometric ratios that is true for all values of the variable.
 
-#### [cite_start]A. Quotient Identities [cite: 669]
+#### A. Quotient Identities
 * $\tan~\theta = \frac{\sin~\theta}{\cos~\theta}$ (where $\cos~\theta \neq 0$)
 * $\cot~\theta = \frac{\cos~\theta}{\sin~\theta}$ (where $\sin~\theta \neq 0$)
 
-#### [cite_start]B. Reciprocal Identities [cite: 669]
+#### B. Reciprocal Identities
 * $\csc~\theta = \frac{1}{\sin~\theta}$ (where $\sin~\theta \neq 0$)
 * $\sec~\theta = \frac{1}{\cos~\theta}$ (where $\cos~\theta \neq 0$)
 * $\cot~\theta = \frac{1}{\tan~\theta}$ (where $\tan~\theta \neq 0$)
 
-#### [cite_start]C. Pythagorean Identities [cite: 669]
+#### C. Pythagorean Identities
 * $\sin^2~\theta + \cos^2~\theta = 1$
 * $1 + \tan^2~\theta = \sec^2~\theta$
 * $1 + \cot^2~\theta = \csc^2~\theta$
 
-#### [cite_start]Strategy for Proving Identities [cite: 670, 671]
+#### Strategy for Proving Identities
 1.  **Separate sides:** Work with the Left Side (L.S.) and Right Side (R.S.) independently.
 2.  **Simplify:** Start with the more complicated side.
 3.  **Rewrite:** Express tangent and reciprocal ratios in terms of sine and cosine.
@@ -62,15 +62,15 @@ To prove trigonometric identities effectively, you often need to use standard al
 
 
 
-#### [cite_start]A. The Sine Law [cite: 753]
+#### A. The Sine Law
 In any triangle $\triangle ABC$, the ratios of each side to the sine of its opposite angle are equal.
 $$\frac{a}{\sin~A} = \frac{b}{\sin~B} = \frac{c}{\sin~C}$$
 * **When to Use:**
     * Two angles and any side (**AAS** or **ASA**).
     * Two sides and one angle opposite a given side (**SSA**).
-* [cite_start]**The Ambiguous Case (SSA):** When given two sides and an angle opposite one of them (SSA), 0, 1, or 2 triangles may be possible depending on the side lengths and the angle size (acute vs. obtuse)[cite: 732, 755].
+* **The Ambiguous Case (SSA):** When given two sides and an angle opposite one of them (SSA), 0, 1, or 2 triangles may be possible depending on the side lengths and the angle size (acute vs. obtuse).
 
-#### [cite_start]B. The Cosine Law [cite: 858]
+#### B. The Cosine Law
 * **To find a side (e.g., $a$):**
     $$a^2 = b^2 + c^2 - 2bc \cos~A$$
 * **To find an angle (e.g., $\angle A$):**
@@ -79,7 +79,7 @@ $$\frac{a}{\sin~A} = \frac{b}{\sin~B} = \frac{c}{\sin~C}$$
     * Two sides and the contained angle (**SAS**).
     * All three sides (**SSS**).
 
-#### [cite_start]Quick Selection Guide [cite: 941]
+#### Quick Selection Guide
 | Given Information | Law to Use |
 | :--- | :--- |
 | **SSA** (Side-Side-Angle) | **Sine Law** (Check for Ambiguous Case) |

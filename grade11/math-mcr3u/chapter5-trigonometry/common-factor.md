@@ -55,7 +55,7 @@ Goal: Students often struggle when the leading term is negative. These force the
 16. $-\sin^2 x - \cos^2 x$
 17. $\cos x - \cos x \sin^2 x$  *(versus)*  $-\cos x + \cos x \sin^2 x$
 18. $-5\tan^2 x - 5$
-19. $1 - \sin^2 x$ *(Challenge: View this as $1(1) - 1(\sin^2 x)$? Or keep as is? This prompts discussion about Difference of Squares vs Common Factors)*.
+19. $1 - \sin^2 x$ (Challenge: View this as $1(1) - 1(\sin^2 x)$? Or keep as is? This prompts discussion about Difference of Squares vs Common Factors).
 
 ---
 
@@ -70,7 +70,7 @@ Goal: Students often struggle when the leading term is negative. These force the
 **Part 2**
 1. $4(\sin x + 1)$
 2. $7(\tan x - 1)$
-3. $2(\cos^2 x + \sin^2 x)$ $\rightarrow$ *Becomes $2(1) = 2$*
+3. $2(\cos^2 x + \sin^2 x)$ $\rightarrow$ Becomes $2(1) = 2$
 4. $-3(\sin x + 1)$
 5. $10(1 - \cos^2 x)$ $\rightarrow$ *Becomes $10(\sin^2 x)$*
 
@@ -83,16 +83,16 @@ Goal: Students often struggle when the leading term is negative. These force the
 
 **Part 4**
 11. $\sin x (\sin^2 x + 1)$
-12. $\cos^2 x (\cos^2 x - 1)$ $\rightarrow$ *Becomes $\cos^2 x (-\sin^2 x)$*
+12. $\cos^2 x (\cos^2 x - 1)$ $\rightarrow$ Becomes $\cos^2 x (-\sin^2 x)$
 13. $\tan^2 x (\tan x + 1)$
-14. $\sin^2 x (\cos^2 x + \sin^2 x)$ $\rightarrow$ *Becomes $\sin^2 x (1)$*
+14. $\sin^2 x (\cos^2 x + \sin^2 x)$ $\rightarrow$ Becomes $\sin^2 x (1)$
 15. $\cot x (\csc^2 x - 1)$
 
 **Part 5**
-16. $-1(\sin^2 x + \cos^2 x)$ $\rightarrow$ *Becomes $-1(1) = -1$*
+16. $-1(\sin^2 x + \cos^2 x)$ $\rightarrow$ *Becomes $-1(1) = -1$
 17. $\cos x (1 - \sin^2 x)$ and $-\cos x (1 - \sin^2 x)$
-18. $-5(\tan^2 x + 1)$ $\rightarrow$ *Becomes $-5(\sec^2 x)$*
+18. $-5(\tan^2 x + 1)$ $\rightarrow$ Becomes $-5(\sec^2 x)$
 
 ### Teaching Tip:
-I often tell my students: **"Let $A = \sin x$."**
+I often tell my students: "Let $A = \sin x$."
 If they get stuck on Exercise #8 ($\tan x - \tan x \sin^2 x$), ask them to write it on a scrap piece of paper as $T - T \cdot S^2$. They usually spot the factor immediately. Then, tell them to "translate it back" to trig.

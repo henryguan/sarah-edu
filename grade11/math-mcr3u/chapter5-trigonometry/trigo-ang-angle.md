@@ -7,9 +7,9 @@ For a terminal arm created by the point $P(-3,-6)$,
 * **(a)** Sketch a diagram of this, labeling the principal angle $\theta$ and the related acute angle $\alpha$.
 * **(b)** Determine the exact value of $r$ and then state the exact values of the three primary trig ratios of the angle $\theta$. (reduce radicals and fractions) \
 r= \
-$Sin(\theta)$ \
-$Cos(\theta)$ \
-$Tan(\theta)$
+$Sin(\theta)$ = \
+$Cos(\theta)$ = \
+$Tan(\theta)$ = 
 
 * **(c)** Determine $\alpha$ and $\theta$ to 1 decimal place.
 

@@ -2,7 +2,7 @@
 
 ### Question 1
 
-**Context:** For a terminal arm created by the point $P(-3,-6)$,
+For a terminal arm created by the point $P(-3,-6)$,
 
 * **(a)** Sketch a diagram of this, labeling the principal angle $\theta$ and the related acute angle $\alpha$.
 * **(b)** Determine the exact value of $r$ and then state the exact values of the three primary trig ratios of the angle $\theta$. (reduce radicals and fractions) \
@@ -17,7 +17,7 @@ $Tan(\theta)$
 
 ### Question 2
 
-* Determine the **exact** value of $\sec (210^{\circ})$ by drawing a diagram of the terminal arm on the Cartesian plane, and appropriate special triangle with side lengths and Angles.
+Determine the **exact** value of $\sec (210^{\circ})$ by drawing a diagram of the terminal arm on the Cartesian plane, and appropriate special triangle with side lengths and Angles.
 
 $\sec (210^{\circ})$ = 
 

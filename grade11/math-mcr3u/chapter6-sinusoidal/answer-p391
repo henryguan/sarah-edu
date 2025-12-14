@@ -303,3 +303,51 @@ Therefore, we use the **cosine function** with no phase shift ($c=0$).
 Substitute the calculated values ($a=1$, $b=3$, $d=2$) into the cosine equation $y = a \cos(b x) + d$:
 
 $$\mathbf{y = \cos(3x) + 2}$$
+
+
+## 7
+
+Since the period is given in degrees, we will use the standard form:
+$$y = a \cos(b(x - c)) + d$$
+
+### 1. Determine Amplitude ($a$)
+
+The amplitude is given directly:
+* **Amplitude ($a$):** $\mathbf{6}$ units
+
+### 2. Determine the $b$-value (Horizontal Stretch)
+
+The $b$-value relates the standard period ($360^\circ$) to the given period ($P = 45^\circ$):
+* **Period ($P$):** $45^\circ$
+* **$b$-value:**
+    $$b = \frac{360^\circ}{P} = \frac{360^\circ}{45^\circ} = \mathbf{8}$$
+
+### 3. Determine the Vertical Shift ($d$)
+
+The vertical shift ($d$) is the midline. Since the minimum value is given, we find $d$ by adding the amplitude to the minimum height:
+* **Minimum Value ($y_{\min}$):** 1
+* **Vertical Shift ($d$):**
+    $$d = y_{\min} + a = 1 + 6 = \mathbf{7}$$
+
+*(The midline is $y=7$. This means the maximum value is $7 + 6 = 13$.)*
+
+### 4. Determine the Phase Shift ($c$) and Function Type
+
+We look at the location of the minimum:
+* **Minimum Location:** $(0, 1)$
+
+* A standard **cosine** function, $y = \cos(x)$, starts at its **maximum** when $x=0$.
+* An **inverted cosine** function, $y = -\cos(x)$, starts at its **minimum** when $x=0$.
+
+Since the minimum occurs exactly at $x=0$, the simplest equation uses a **negative cosine function** with **no phase shift**.
+* **$a$ (Sign):** Use $a = -6$ for the inverted graph.
+* **Phase Shift ($c$):** $\mathbf{0}$
+
+### 5. Final Equation
+
+Substitute the calculated values ($a=-6$, $b=8$, $c=0$, $d=7$) into the cosine equation:
+
+$$y = -6 \cos(8(x - 0)) + 7$$
+
+$$\mathbf{y = -6 \cos(8x) + 7}$$
+

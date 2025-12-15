@@ -304,8 +304,81 @@ Substitute the calculated values ($a=1$, $b=3$, $d=2$) into the cosine equation 
 
 $$\mathbf{y = \cos(3x) + 2}$$
 
+## Question 6
 
-## 7
+
+The general equation for a transformed cosine function is:
+$$y = a \cos\left(k(x - d)\right) + c$$
+
+Where:
+* $|a|$ is the **Amplitude**.
+* $|k|$ is related to the **Period** ($P$) by the formula $P = \frac{360^\circ}{|k|}$ (since the input values are in degrees). Therefore, $|k| = \frac{360^\circ}{P}$.
+* $c$ is the **Equation of the Axis** (or the vertical shift), $y = c$.
+* $d$ is the **Horizontal Translation** (or phase shift).
+
+I will assume the values in the table are positive for the amplitude $|a|$ and that $a$ is positive (no reflection across the axis of the function), and that $k$ is positive.
+
+---
+
+### **a)**
+
+| Feature | Value | Variable/Formula |
+| :--- | :--- | :--- |
+| **Amplitude** | $3$ | $a = 3$ |
+| **Period** | $360^\circ$ | $k = \frac{360^\circ}{360^\circ} = 1$ |
+| **Equation of the Axis** | $y = 11$ | $c = 11$ |
+| **Horizontal Translation** | $0^\circ$ | $d = 0^\circ$ |
+
+**Equation:** $y = 3 \cos\left(1(x - 0^\circ)\right) + 11$
+$$\mathbf{y = 3 \cos(x) + 11}$$
+
+---
+
+### **b)**
+
+| Feature | Value | Variable/Formula |
+| :--- | :--- | :--- |
+| **Amplitude** | $4$ | $a = 4$ |
+| **Period** | $180^\circ$ | $k = \frac{360^\circ}{180^\circ} = 2$ |
+| **Equation of the Axis** | $y = 15$ | $c = 15$ |
+| **Horizontal Translation** | $30^\circ$ | $d = 30^\circ$ |
+
+**Equation:** $y = 4 \cos\left(2(x - 30^\circ)\right) + 15$
+$$\mathbf{y = 4 \cos\left(2(x - 30^\circ)\right) + 15}$$
+
+---
+
+### **c)**
+
+| Feature | Value | Variable/Formula |
+| :--- | :--- | :--- |
+| **Amplitude** | $2$ | $a = 2$ |
+| **Period** | $40^\circ$ | $k = \frac{360^\circ}{40^\circ} = 9$ |
+| **Equation of the Axis** | $y = 0$ | $c = 0$ |
+| **Horizontal Translation** | $7^\circ$ | $d = 7^\circ$ |
+
+**Equation:** $y = 2 \cos\left(9(x - 7^\circ)\right) + 0$
+$$\mathbf{y = 2 \cos\left(9(x - 7^\circ)\right)}$$
+
+---
+
+### **d)**
+
+| Feature | Value | Variable/Formula |
+| :--- | :--- | :--- |
+| **Amplitude** | $0.5$ | $a = 0.5$ |
+| **Period** | $720^\circ$ | $k = \frac{360^\circ}{720^\circ} = 0.5$ |
+| **Equation of the Axis** | $y = -3$ | $c = -3$ |
+| **Horizontal Translation** | $-56^\circ$ | $d = -56^\circ$ |
+
+**Equation:** $y = 0.5 \cos\left(0.5(x - (-56^\circ))\right) - 3$
+$$\mathbf{y = 0.5 \cos\left(0.5(x + 56^\circ)\right) - 3}$$
+
+---
+
+
+
+## Question 7
 
 Since the period is given in degrees, we will use the standard form:
 $$y = a \cos(b(x - c)) + d$$
@@ -350,4 +423,111 @@ Substitute the calculated values ($a=-6$, $b=8$, $c=0$, $d=7$) into the cosine e
 $$y = -6 \cos(8(x - 0)) + 7$$
 
 $$\mathbf{y = -6 \cos(8x) + 7}$$
+
+## Question 8
+
+The table shows the average monthly high temperature for one year in Kapuskasing, Ontario.
+
+a) Draw a scatter plot of the data and the curve of best fit. Let January be month 0.
+b) What type of model describes the graph? Why did you select that model?
+c) Write an equation for your model. Describe the constants and the variables in the context of this problem.
+d) What is the average monthly temperature for month 20?
+
+
+Answer:
+
+This is a classic problem involving modeling periodic data with a sinusoidal function (sine or cosine). I will use the data provided to perform the analysis.
+
+### **a) Draw a scatter plot of the data and the curve of best fit.**
+
+First, we need to assign a numerical value for the month (Time). If **January is month 0**, then the subsequent months are numbered as follows:
+
+| Month | J | F | M | A | M | J | J | A | S | O | N | D |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Month ($x$)** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| **Temp ($y$)** | $-18.6$ | $-16.3$ | $-9.1$ | $0.4$ | $8.5$ | $13.8$ | $17.0$ | $15.4$ | $10.3$ | $4.4$ | $-4.3$ | $-14.8$ |
+
+
+The curve of best fit for this type of data is a **sinusoidal function**. The graph would look like a smooth, repeating wave, with a maximum around July (month 6) and a minimum around January (month 0).
+
+---
+
+### **b) What type of model describes the graph? Why did you select that model?**
+
+* **Type of Model:** A **Sinusoidal Function** (either sine or cosine).
+* **Reason for Selection:** This type of model is appropriate because the temperature data for a location is **periodic**. The pattern of temperatures repeats every year (every 12 months). It follows a smooth, continuous wave pattern with a regular cycle of reaching a maximum (summer) and a minimum (winter).
+
+---
+
+### **c) Write an equation for your model. Describe the constants and the variables in the context of this problem.**
+
+We will use the general form: $y = a \cos(k(x - d)) + c$. Since the minimum temperature occurs near the start (January, $x=0$), a **negative cosine function** ($y = -a \cos(kx) + c$) is a very good fit, as the basic negative cosine graph starts at its minimum.
+
+#### **1. Determine the Parameters**
+
+**A. Equation of the Axis ($c$)** (Average Temperature)
+The axis is the midpoint between the maximum and minimum temperatures.
+* **Max Temperature ($T_{max}$):** $17.0^\circ\text{C}$ (July, $x=6$)
+* **Min Temperature ($T_{min}$):** $-18.6^\circ\text{C}$ (January, $x=0$)
+$$c = \frac{T_{max} + T_{min}}{2} = \frac{17.0 + (-18.6)}{2} = \frac{-1.6}{2} = -0.8$$
+* **Constant $c$:** **$-0.8$**.
+
+**B. Amplitude ($a$)**
+The amplitude is the distance from the axis to the maximum (or minimum).
+$$a = \frac{T_{max} - T_{min}}{2} = \frac{17.0 - (-18.6)}{2} = \frac{35.6}{2} = 17.8$$
+* **Constant $a$:** **$17.8$**.
+
+**C. Period and $k$-value**
+The period ($P$) is the length of one full cycle, which is **12 months** (one year). Since the input is in months, the standard period is $2\pi$ for radians or $360^\circ$ for degrees, but here we use the ratio $k = \frac{2\pi}{P}$ or $\frac{360^\circ}{P}$ to relate the period to the cycle length of 12. Let's use $\frac{2\pi}{P}$.
+$$k = \frac{2\pi}{12} = \frac{\pi}{6}$$
+* **Constant $k$:** $\mathbf{\frac{\pi}{6}}$.
+
+**D. Horizontal Translation ($d$)**
+Since we are using a **negative cosine** function, the minimum should occur at $x=d$. The minimum occurs at $x=0$ (January).
+* **Constant $d$:** **$0$**.
+
+#### **2. The Equation**
+
+Using the negative cosine model: $y = -a \cos(k(x - d)) + c$
+$$y = -17.8 \cos\left(\frac{\pi}{6}(x - 0)\right) - 0.8$$
+
+$$\mathbf{y = -17.8 \cos\left(\frac{\pi}{6}x\right) - 0.8}$$
+
+#### **3. Describe the Constants and Variables**
+
+| Element | Symbol | Value | Contextual Description |
+| :--- | :--- | :--- | :--- |
+| **Independent Variable** | $x$ | $0 \le x \le 11$ (for one year) | The **time in months**, where $x=0$ is January. |
+| **Dependent Variable** | $y$ | N/A | The **average monthly high temperature** in degrees Celsius ($^\circ\text{C}$). |
+| **Amplitude** | $a$ | $17.8$ | Half the difference between the hottest and coldest average temperatures. The deviation from the annual average. |
+| **Axis of the Function** | $c$ | $-0.8$ | The **annual average high temperature** in Kapuskasing in $^\circ\text{C}$. |
+| **Frequency/Period** | $k$ | $\frac{\pi}{6}$ | The constant determining the period. $P = \frac{2\pi}{k} = \frac{2\pi}{\pi/6} = 12$ months (one year). |
+| **Phase Shift** | $d$ | $0$ | The horizontal shift; chosen as 0 since a negative cosine function starts at its minimum in January ($x=0$). |
+
+---
+
+### **d) What is the average monthly temperature for month 20?**
+
+To find the temperature for month 20, we substitute $x=20$ into the model developed in part (c):
+$$y = -17.8 \cos\left(\frac{\pi}{6}x\right) - 0.8$$
+$$y = -17.8 \cos\left(\frac{\pi}{6}(20)\right) - 0.8$$
+$$y = -17.8 \cos\left(\frac{20\pi}{6}\right) - 0.8$$
+$$y = -17.8 \cos\left(\frac{10\pi}{3}\right) - 0.8$$
+
+Since the cosine function has a period of $2\pi$ (or $\frac{12\pi}{6}$), we can simplify the angle by subtracting multiples of the period:
+$$\frac{10\pi}{3} = 3\pi + \frac{\pi}{3} = \left(2\pi + \pi\right) + \frac{\pi}{3} = 2\pi + \left(\frac{3\pi}{3} + \frac{\pi}{3}\right) = 2\pi + \frac{4\pi}{3}$$
+The terminal arm is at $\frac{4\pi}{3}$.
+
+$$\cos\left(\frac{10\pi}{3}\right) = \cos\left(\frac{4\pi}{3}\right)$$
+Since $\frac{4\pi}{3}$ is in the third quadrant, the cosine value is negative. The related acute angle is $\frac{4\pi}{3} - \pi = \frac{\pi}{3}$.
+$$\cos\left(\frac{4\pi}{3}\right) = -\cos\left(\frac{\pi}{3}\right) = -\frac{1}{2} = -0.5$$
+
+Now, substitute this value back into the equation:
+$$y = -17.8 (-0.5) - 0.8$$
+$$y = 8.9 - 0.8$$
+$$y = 8.1$$
+
+The average monthly temperature for month 20 is **$8.1^\circ\text{C}$**.
+
+*Note: Month 20 is exactly 8 months after the start of the second cycle (month 12), so it corresponds to **September** (month 8 of a standard year).*
 

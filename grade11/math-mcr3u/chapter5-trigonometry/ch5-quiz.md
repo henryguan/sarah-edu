@@ -1,6 +1,6 @@
 ## 📝 Chapter 5 Quiz: Original Questions
 
-### Page 1 (No Calculators Permitted)
+###  (No Calculators Permitted)
 
 **1. Sketch both special triangles with all angles and side lengths.**  (4 marks)
 
@@ -15,8 +15,6 @@
 * **(b)** $\cot x=1$ (exact) 
 
 ***
-
-### Page 2
 
 **4. For $\sin A=\frac{1}{3}$, determine all possible values of $\cos A$. (Use exact values)**  (2 marks)
 

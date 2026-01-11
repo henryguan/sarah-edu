@@ -1,4 +1,6 @@
-1. The load on a trailer has shifted, causing the rear end of the trailer to swing left and right. The distance from one of the tail lights on the trailer to the curb varies sinusoidally with time. The graph models this behaviour.
+
+## Question 1
+The load on a trailer has shifted, causing the rear end of the trailer to swing left and right. The distance from one of the tail lights on the trailer to the curb varies sinusoidally with time. The graph models this behaviour.
 
     **a)** What is the equation of the axis of the function, and what does it represent in this situation?
 

@@ -438,6 +438,50 @@ Answer:
 
 This is a classic problem involving modeling periodic data with a sinusoidal function (sine or cosine). I will use the data provided to perform the analysis.
 
+The general equation will use the 360^\circ standard period:
+
+
+### 1. Recalculating the b-value (The only change)
+
+* **Period (P):** 12 months.
+* **b-value (using degrees):**
+
+### 2. Constants Remain the Same
+
+All other calculated constants are unchanged:
+
+* **Amplitude (a):** 17.8
+* **Vertical Shift (d):** -0.8
+* **Phase Shift (c):** 6 (since the maximum is at x=6)
+
+---
+
+## c) Equation and Description (Degree Version)
+
+**New Equation for the Model:**
+
+
+**Description of Constants:**
+
+* **a = 17.8 (Amplitude):** The maximum deviation of the monthly temperature from the annual average.
+* **b = 30^\circ (Rate of Change):** This constant, 30^\circ, is the angular speed. It ensures that when x increases by 12 (one year), the angle increases by 30^\circ \times 12 = 360^\circ, completing one full cycle.
+* **c = 6 (Phase Shift):** The horizontal shift that places the maximum temperature at month x=6 (July).
+* **d = -0.8 (Vertical Shift/Midline):** The average annual high temperature in Kapuskasing is -0.8^\circ\text{C}.
+
+---
+
+## d) Temperature for Month 20 (Using Degree Equation)
+
+We use the degree equation to find T(20):
+
+Since 420^\circ is coterminal with 60^\circ:
+
+
+The calculated temperature for month 20 (September) is 8.1^\circ\text{C}.
+
+-----
+Or Use Pii
+
 ### **a) Draw a scatter plot of the data and the curve of best fit.**
 
 First, we need to assign a numerical value for the month (Time). If **January is month 0**, then the subsequent months are numbered as follows:

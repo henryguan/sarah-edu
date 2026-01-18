@@ -51,6 +51,8 @@ You need to recognize what an exponential function looks like in an equation, a 
 You must be able to graph and analyze the transformed equation:
 $$g(x) = a(b)^{k(x-d)} + c$$
 
+$$g(x) = 2(2)^{1/3(x+4)} + 1$$
+
 **What each letter does:**
 *   **$c$ (Vertical Translation):** Moves the graph Up/Down.
     *   *Crucial:* This determines your **Horizontal Asymptote**. The new asymptote is **$y = c$**.

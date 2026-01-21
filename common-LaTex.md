@@ -45,3 +45,8 @@ Here is a table of common inline LaTeX expressions, along with their output, spe
     * Example: `x=0 \text{ is the solution}` $\to x=0 \text{ is the solution}$
 
 Would you like to see how to write a full equation, like the **Quadratic Formula**, using display-style LaTeX?
+
+
+`y=2*3^{-2(x+1)}-3`
+
+$y=2*3^{-2(x+1)}-3$

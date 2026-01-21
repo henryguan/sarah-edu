@@ -18,7 +18,7 @@ $$(x, y) \rightarrow \left( \frac{x}{k} + d, \text{ } ay + c \right)$$
 ### Parameter Breakdown
 
 | Parameter | Transformation Type | Mathematical Action |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | $a$ | Vertical Stretch / Compression / Reflection | Multiply $y$ by $a$ |
 | $k$ | Horizontal Stretch / Compression / Reflection | Divide $x$ by $k$ |
 | $d$ | Horizontal Translation (Phase Shift) | Add $d$ to $x$ |
@@ -38,7 +38,7 @@ $$(x, y) \rightarrow \left( \frac{x}{k} + d, \text{ } ay + c \right)$$
 * **Mapping Rule:**  $(x, y) \rightarrow (x - 4, -2y - 3)$
 
 | Parent Point | Calculation | Transformed Point |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | $(0, 0)$ | $(0-4, -2(0)-3)$ | $(-4, -3)$ (Vertex) |
 | $(1, 1)$ | $(1-4, -2(1)-3)$ | $(-3, -5)$ |
 | $(2, 4)$ | $(2-4, -2(4)-3)$ | $(-2, -11)$ |
@@ -60,7 +60,7 @@ $$(x, y) \rightarrow \left( \frac{x}{k} + d, \text{ } ay + c \right)$$
 * **New Asymptote:** $y = c \rightarrow \mathbf{y = 1}$
 
 | Parent Point | Calculation | Transformed Point |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | $(0, 1)$ | $(0/2, 3(1)+1)$ | $(0, 4)$ ($y$-intercept) |
 | $(1, 2)$ | $(1/2, 3(2)+1)$ | $(0.5, 7)$ |
 
@@ -78,7 +78,7 @@ $$(x, y) \rightarrow \left( \frac{x}{k} + d, \text{ } ay + c \right)$$
 * **Mapping Rule:** $(x, y) \rightarrow (\frac{x}{3} + 60^\circ, 0.5y + 2)$
 
 | Parent Point | Calculation | Transformed Point |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | $(0^\circ, 1)$ | $(0/3+60, 0.5(1)+2)$ | $(60^\circ, 2.5)$ (Max) |
 | $(90^\circ, 0)$ | $(90/3+60, 0.5(0)+2)$ | $(90^\circ, 2)$ (Midline) |
 | $(180^\circ, -1)$ | $(180/3+60, 0.5(-1)+2)$ | $(120^\circ, 1.5)$ (Min) |

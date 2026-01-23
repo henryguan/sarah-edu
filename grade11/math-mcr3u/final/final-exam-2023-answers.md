@@ -123,16 +123,12 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
    - $5m^{2}-25m = 5m(m-5)$
    - $m^{2}+3m+2 = (m+1)(m+2)$
 
-   \[
-   \frac{(m-5)(m+1)}{5m(m-5)} \div \frac{(m+1)(m+2)}{15m^{2}}
-   = \frac{m+1}{5m} \times \frac{15m^{2}}{(m+1)(m+2)}
-   \]
+  $\frac{(m-5)(m+1)}{5m(m-5)} \div \frac{(m+1)(m+2)}{15m^{2}}$
+  $= \frac{m+1}{5m} \times \frac{15m^{2}}{(m+1)(m+2)}$
 
    Cancel $(m+1)$ and one $m$; $15/5 = 3$:
 
-   \[
-   = \frac{3m}{m+2}
-   \]
+  $= \frac{3m}{m+2}$
 
    So $\boxed{\dfrac{3m}{m+2}}$ (restrictions: $m\ne 0,-2,5,-1$).
 
@@ -144,16 +140,12 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Factor by grouping:
 
-   \[
-   2x^{2} - 9x - 5 = 2x^{2} - 10x + x - 5
-   = 2x(x-5) + 1(x-5) = (2x+1)(x-5)
-   \]
+  $2x^{2} - 9x - 5 = 2x^{2} - 10x + x - 5$
+  $= 2x(x-5) + 1(x-5) = (2x+1)(x-5)$
 
    Set each factor to zero:
 
-   \[
-   2x+1=0 \Rightarrow x=-\frac{1}{2}, \quad x-5=0 \Rightarrow x=5
-   \]
+  $2x+1=0 \Rightarrow x=-\frac{1}{2}, \quad x-5=0 \Rightarrow x=5$
 
    So $\boxed{x = -\dfrac{1}{2},\ 5}$.
 
@@ -163,25 +155,16 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Use the quadratic formula, $a=2, b=2.7, c=-5.1$:
 
-   \[
-   x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
-   = \frac{-2.7 \pm \sqrt{2.7^{2} - 4(2)(-5.1)}}{4}
-   \]
+  $$x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a} = \frac{-2.7 \pm \sqrt{2.7^{2} - 4(2)(-5.1)}}{4}$$
 
-   \[
-   b^{2} - 4ac = 7.29 + 40.8 = 48.09
-   \]
+  $$b^{2} - 4ac = 7.29 + 40.8 = 48.09$$
 
-   \[
-   x = \frac{-2.7 \pm \sqrt{48.09}}{4}
-   \]
+  $$x = \frac{-2.7 \pm \sqrt{48.09}}{4}$$
 
    $\sqrt{48.09} \approx 6.93$:
 
-   \[
-   x_1 \approx \frac{-2.7 + 6.93}{4} \approx 1.06, \quad
-   x_2 \approx \frac{-2.7 - 6.93}{4} \approx -2.41
-   \]
+  $x_1 \approx \frac{-2.7 + 6.93}{4} \approx 1.06, \quad$
+  $x_2 \approx \frac{-2.7 - 6.93}{4} \approx -2.41$
 
    So $\boxed{x \approx 1.06,\ -2.41}$ (to 2 decimal places).
 
@@ -191,9 +174,7 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Recognize a difference of squares, $(a+b)(a-b) = a^{2} - b^{2}$ with $a=7\sqrt{2}$, $b=\sqrt{3}$:
 
-   \[
-   (7\sqrt{2})^{2} - (\sqrt{3})^{2} = 49\cdot 2 - 3 = 98 - 3 = 95
-   \]
+  $(7\sqrt{2})^{2} - (\sqrt{3})^{2} = 49\cdot 2 - 3 = 98 - 3 = 95$
 
    So $\boxed{95}$.
 
@@ -203,9 +184,7 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    (a) **Initial height** (when the ball is hit): set $t=0$.
 
-   \[
-   h(0) = -5(0)^{2} + 20(0) + 0.8 = 0.8
-   \]
+  $h(0) = -5(0)^{2} + 20(0) + 0.8 = 0.8$
 
    So the ball is $\boxed{0.8\ \text{m}}$ above the ground when hit.
 
@@ -215,13 +194,9 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    For $h(t) = at^{2} + bt + c$ with $a=-5, b=20$:
 
-   \[
-   t_{\text{max}} = -\frac{b}{2a} = -\frac{20}{2(-5)} = 2\ \text{s}
-   \]
+  $t_{\text{max}} = -\frac{b}{2a} = -\frac{20}{2(-5)} = 2\ \text{s}$
 
-   \[
-   h(2) = -5(2)^{2} + 20(2) + 0.8 = -20 + 40 + 0.8 = 20.8
-   \]
+  $h(2) = -5(2)^{2} + 20(2) + 0.8 = -20 + 40 + 0.8 = 20.8$
 
    So the maximum height is $\boxed{20.8\ \text{m}}$.
 
@@ -229,23 +204,17 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    (c) **Time when the ball hits the ground**: solve $h(t)=0$.
 
-   \[
-   -5t^{2} + 20t + 0.8 = 0
-   \]
+  $-5t^{2} + 20t + 0.8 = 0$
 
    Quadratic formula with $a=-5, b=20, c=0.8$:
 
-   \[
-   t = \frac{-20 \pm \sqrt{20^{2} - 4(-5)(0.8)}}{2(-5)}
-   = \frac{-20 \pm \sqrt{400 + 16}}{-10}
-   = \frac{-20 \pm \sqrt{416}}{-10}
-   \]
+  $t = \frac{-20 \pm \sqrt{20^{2} - 4(-5)(0.8)}}{2(-5)}$
+  $= \frac{-20 \pm \sqrt{400 + 16}}{-10}$
+  $= \frac{-20 \pm \sqrt{416}}{-10}$
 
    $\sqrt{416} \approx 20.4$ gives one negative and one positive root; the physical solution is the positive time:
 
-   \[
-   t \approx 4.04\ \text{s}
-   \]
+  $t \approx 4.04\ \text{s}$
 
    So the ball hits the ground at about $\boxed{4.0\ \text{s}}$ (to 1 d.p.).
 
@@ -267,28 +236,20 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Angles in triangle:
 
-   \[
-   \angle DAB = 100^\circ,\ \angle D = 22^\circ
-   \Rightarrow \angle B = 180^\circ - 100^\circ - 22^\circ = 58^\circ
-   \]
+  $\angle DAB = 100^\circ,\ \angle D = 22^\circ$
+  $\Rightarrow \angle B = 180^\circ - 100^\circ - 22^\circ = 58^\circ$
 
    Apply the sine law:
 
-   \[
-   \frac{AD}{\sin \angle B} = \frac{AB}{\sin \angle D}
-   \Rightarrow
-   \frac{37}{\sin 58^\circ} = \frac{AB}{\sin 22^\circ}
-   \]
+  $\frac{AD}{\sin \angle B} = \frac{AB}{\sin \angle D}$
+  $\Rightarrow$
+  $\frac{37}{\sin 58^\circ} = \frac{AB}{\sin 22^\circ}$
 
-   \[
-   AB = 37 \cdot \frac{\sin 22^\circ}{\sin 58^\circ} \approx 16.3\,\text{m}
-   \]
+  $AB = 37 \cdot \frac{\sin 22^\circ}{\sin 58^\circ} \approx 16.3\,\text{m}$
 
    So
 
-   \[
-   AC = AB + BC \approx 16.3 + 25 = 41.3\,\text{m}.
-   \]
+  $AC = AB + BC \approx 16.3 + 25 = 41.3\,\text{m}.$
 
    **Step 2: Triangle $\triangle DAC$**
 
@@ -296,17 +257,11 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Apply the cosine law:
 
-   \[
-   DC^{2} = AD^{2} + AC^{2} - 2(AD)(AC)\cos 100^\circ
-   \]
+  $DC^{2} = AD^{2} + AC^{2} - 2(AD)(AC)\cos 100^\circ$
 
-   \[
-   DC^{2} \approx 37^{2} + 41.3^{2} - 2(37)(41.3)\cos 100^\circ \approx 3609
-   \]
+  $DC^{2} \approx 37^{2} + 41.3^{2} - 2(37)(41.3)\cos 100^\circ \approx 3609$
 
-   \[
-   DC \approx \sqrt{3609} \approx 60.1\,\text{m}
-   \]
+  $DC \approx \sqrt{3609} \approx 60.1\,\text{m}$
 
    So $\boxed{x \approx 60.1\,\text{m}}$ (to one decimal place).
 
@@ -318,9 +273,7 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    (b) **Exact values of** $\tan(A)$
 
-   \[
-   \cos^2 A = \left(-\frac{2}{3}\right)^2 = \frac{4}{9},\ \sin^2 A = 1 - \frac{4}{9} = \frac{5}{9}
-   \]
+  $\cos^2 A = \left(-\frac{2}{3}\right)^2 = \frac{4}{9},\ \sin^2 A = 1 - \frac{4}{9} = \frac{5}{9}$
 
    So $|\sin A| = \dfrac{\sqrt{5}}{3}$.
 
@@ -337,18 +290,12 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Related acute angle:
 
-   \[
-   \alpha = \cos^{-1}\left(\frac{2}{3}\right) \approx 48.2^\circ
-   \]
+  $\alpha = \cos^{-1}\left(\frac{2}{3}\right) \approx 48.2^\circ$
 
    Cosine is negative in quadrants II and III:
 
-   \[
-   A_1 = 180^\circ - \alpha \approx 180^\circ - 48.2^\circ = 131.8^\circ
-   \]
-   \[
-   A_2 = 180^\circ + \alpha \approx 180^\circ + 48.2^\circ = 228.2^\circ
-   \]
+  $A_1 = 180^\circ - \alpha \approx 180^\circ - 48.2^\circ = 131.8^\circ$
+  $A_2 = 180^\circ + \alpha \approx 180^\circ + 48.2^\circ = 228.2^\circ$
 
    So the related acute angle is $\boxed{48.2^\circ}$, and  \\
    $\boxed{A \approx 131.8^\circ,\ 228.2^\circ}$ (1 d.p.).
@@ -363,21 +310,15 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    We can write the transformation as
 
-   \[
-   y = 2 f(-2(x+1)) - 3.
-   \]
+  $y = 2 f(-2(x+1)) - 3.$
 
    Let $(x, y)$ lie on $y = 3^{x}$ (so $y = 3^{x}$). For the image point $(X, Y)$:
 
-   \[
-   x = -2(X+1) \Rightarrow X = -\frac{x}{2} - 1,\quad Y = 2y - 3.
-   \]
+  $x = -2(X+1) \Rightarrow X = -\frac{x}{2} - 1,\quad Y = 2y - 3.$
 
    So the pointwise rule is
 
-   \[
-   \boxed{(x, y) \mapsto \left(-\frac{x}{2} - 1,\ 2y - 3\right)}.
-   \]
+  $\boxed{(x, y) \mapsto \left(-\frac{x}{2} - 1,\ 2y - 3\right)}.$
 
    Use three key points of $y=3^{x}$:
 
@@ -407,21 +348,15 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
    Write
 
-   \[
-   y = -3 f(10(x+9)) + 2,\quad \text{where } f(x) = \cos x.
-   \]
+  $y = -3 f(10(x+9)) + 2,\quad \text{where } f(x) = \cos x.$
 
    If $(x, y)$ lies on $y=\cos x$, then for the image point $(X, Y)$:
 
-   \[
-   x = 10(X+9) \Rightarrow X = \frac{x}{10} - 9,\quad Y = -3y + 2.
-   \]
+  $x = 10(X+9) \Rightarrow X = \frac{x}{10} - 9,\quad Y = -3y + 2.$
 
    So
 
-   \[
-   \boxed{(x, y) \mapsto \left(\frac{x}{10} - 9,\ -3y + 2\right)}.
-   \]
+  $\boxed{(x, y) \mapsto \left(\frac{x}{10} - 9,\ -3y + 2\right)}.$
 
    Use three standard key points of $y=\cos x$ over $[0, 2\pi]$:
 

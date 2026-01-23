@@ -91,9 +91,9 @@ $h(t) = -5t^{2} + 20t + 0.8$. Determine the following:
 ![Item 5 diagram](./images/item-5.jpeg)
 
 6. For $\cos(A) = -\frac{2}{3}$, where $0^{\circ} \leq A \leq 360^{\circ}$,
-    - (a) Sketch the possible positions of the terminal arms for angle \(A\) on the Cartesian plane
-    - (b) Determine the exact values of \(\tan(A)\)
-    - (c) Determine the related acute angle and all values for \(A\) to 1 decimal place.
+- (a) Sketch the possible positions of the terminal arms for angle \(A\) on the Cartesian plane
+- (b) Determine the exact values of \(\tan(A)\)
+- (c) Determine the related acute angle and all values for \(A\) to 1 decimal place.
 
 7. 
 (a) State the pointwise formula for the transformation from the parent function in 4(b) to $y = 2 \times 3^{-2(x+1)} - 3$ and use it with at least 3 key points.  \((x, y)\)
@@ -101,7 +101,9 @@ $h(t) = -5t^{2} + 20t + 0.8$. Determine the following:
 (b) Graph and label the function \(y = 2 \times 3^{-2(x+1)} - 3\). (Identify at least 2 key points and the asymptote on the graph.)  
  ![Transformation graph](./images/x-y.jpeg)
 
-8. (a) State the pointwise formula for the transformation from $y = \cos(x)$ to $y = -3 \cos(10(x+9)) + 2$, and use it with at least 3 key points of $y = \cos(x)$.  
+8. 
+(a) State the pointwise formula for the transformation from $y = \cos(x)$ to $y = -3 \cos(10(x+9)) + 2$, and use it with at least 3 key points of $y = \cos(x)$.  
     \((x, y)\)
-    - (b) Sketch one period of \(y = -3 \cos(10(x+9)) + 2\). Include a scale and label all important points and the axis.  
+
+(b) Sketch one period of \(y = -3 \cos(10(x+9)) + 2\). Include a scale and label all important points and the axis.  
     ![Transformation graph](./images/x-y.jpeg)

@@ -2,13 +2,13 @@
 
 ---
 
-## Question 1 [1 mark]
+## Question 1
 
 State $y = \cos x$ in terms of sine.
 
 ---
 
-## Question 2 [6 marks]
+## Question 2
 
 For the trig function $f(x) = -2 \cos(3x - 120) - 1$, determine:
 
@@ -21,17 +21,17 @@ For the trig function $f(x) = -2 \cos(3x - 120) - 1$, determine:
 
 ---
 
-## Question 3 [6 marks]
+## Question 3
 
 Sketch one period of the following functions. Include a scale and label all important points and the axis. (Important points are at every quarter of a period)
 
-**(a)** $f(x) = -2 \sin(x) + 2$ [3 marks]
+**(a)** $f(x) = -2 \sin(x) + 2$
 
-**(b)** $g(x) = \cos(2(x + 45))$ [3 marks]
+**(b)** $g(x) = \cos(2(x + 45))$
 
 ---
 
-## Question 4 [2 marks]
+## Question 4
 
 Write the following function in terms of sine:
 
@@ -39,19 +39,20 @@ $$f(x) = -2 \cos(3x - 120) - 1$$
 
 ---
 
-## Question 5 [7 marks]
+## Question 5
 
-**(a)** State the: [3 marks]
+**(a)** State the:
    - (i) Period
    - (ii) Amplitude
    - (iii) Equation of the axis
 
-**(b)** State a function in terms of cosine that represents this graph: [4 marks]
+**(b)** State a function in terms of cosine that represents this graph:
 
+![Question 5 Graph](./images/5-diagram.jpg)
 
 ---
 
-## Question 6 [Application Problem]
+## Question 6
 
 The diameter of a car's tire is 60 cm. While the car is being driven, the tire picks up a nail.
 
@@ -61,7 +62,9 @@ The diameter of a car's tire is 60 cm. While the car is being driven, the tire p
 
 ---
 
-## Question 7 [4 marks]
+## Question 7
+
+![Question 7 Diagram](./images/7-diagram.jpg)
 
 Above is a diagram of a wheel rolling to the right on the floor. The valve stem is on the inside of the wheel, indicated by the dot that is 6 cm above the ground.
 

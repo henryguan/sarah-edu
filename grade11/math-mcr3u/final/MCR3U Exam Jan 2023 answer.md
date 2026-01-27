@@ -340,45 +340,51 @@ This key corresponds to `final-exam-2023.md`. Exact values are used where approp
 
 ---
 
+
 8. **Cosine transformation** – $y = -3\cos(10(x+9)) + 2$
 
-   Parent: $y = \cos x$.
+   **Parent Function:** $y = \cos(x)$
 
-   (a) **Pointwise formula and 3 key points**
+   (a) **Pointwise Formula and Key Points**
 
-   Write
+   **1. Identify the Transformations:**
+   By comparing the given equation to the general form $y = a \cos(k(x - d)) + c$:
 
-  $y = -3 f(10(x+9)) + 2,\quad \text{where } f(x) = \cos x.$
+   *   **$a = -3$**: Vertical reflection constant. This means a reflection in the x-axis and a vertical stretch by a factor of 3.
+       *   Transformation on $y$: Multiply by $-3$.
+   *   **$k = 10$**: Horizontal compression factor. The period is compressed by a factor of $\frac{1}{10}$.
+       *   Transformation on $x$: Divide by $10$.
+   *   **$d = -9$**: Phase shift (horizontal translation). Shift left by 9 units.
+       *   Transformation on $x$: Subtract $9$.
+   *   **$c = +2$**: Vertical translation (axis of the curve). Shift up 2 units.
+       *   Transformation on $y$: Add $2$.
 
-   If $(x, y)$ lies on $y=\cos x$, then for the image point $(X, Y)$:
+   **2. Pointwise Formula:**
+   Mapping notation $(x, y) \rightarrow (x_{new}, y_{new})$:
+   $$ (x, y) \rightarrow \left(\frac{x}{10} - 9, \, -3y + 2\right) $$
 
-  $x = 10(X+9) \Rightarrow X = \frac{x}{10} - 9,\quad Y = -3y + 2.$
+   **3. Transformed Key Points:**
+   Using the base points for one cycle of $y = \cos(x)$ ($0^\circ, 90^\circ, 180^\circ, 270^\circ, 360^\circ$):
+   *   $(0^\circ, 1) \rightarrow (-9, -1)$ (Minimum)
+   *   $(90^\circ, 0) \rightarrow (0, 2)$ (Axis / Y-int)
+   *   $(180^\circ, -1) \rightarrow (9, 5)$ (Maximum)
+   *   $(270^\circ, 0) \rightarrow (18, 2)$ (Axis)
+   *   $(360^\circ, 1) \rightarrow (27, -1)$ (Minimum)
 
-   So
+   (b) **Sketching the Graph**
 
-  $\boxed{(x, y) \mapsto \left(\frac{x}{10} - 9,\ -3y + 2\right)}.$
+   To sketch one period, use the specific features calculated above:
 
-   Use three standard key points of $y=\cos x$ over $[0, 2\pi]$:
+   1.  **Axis:** Draw the horizontal center line at **$y = 2$**.
+   2.  **Max/Min:** Mark the maximum height at **$y = 5$** and minimum height at **$y = -1$**.
+   3.  **Period:** The new period is $360^\circ / 10 = \mathbf{36^\circ}$. A full cycle starts at $x = -9$ and ends at $x = 27$.
+   4.  **Plotting:**
+       *   Start at **$x = -9$** at the **minimum** $(-9, -1)$.
+       *   Cross the axis at **$x = 0$** (the y-axis) at $(0, 2)$.
+       *   Reach the **peak** at **$x = 9$**, point $(9, 5)$.
+       *   Cross the axis again at **$x = 18$**, point $(18, 2)$.
+       *   End the cycle at **$x = 27$** at the **minimum** $(27, -1)$.
 
-   - $(0, 1) \mapsto (-9, -1)$
-   - $(\pi, -1) \mapsto \left(-9 + \tfrac{\pi}{10},\ 5\right)$
-   - $(2\pi, 1) \mapsto \left(-9 + \tfrac{\pi}{5},\ -1\right)$
+   **Sketch Description:**
+   The graph is an inverted cosine wave (starting from the bottom). It is significantly compressed horizontally. It fits entirely between $x=-9$ and $x=27$.
 
-   (b) **Sketch one period of** $y = -3\cos(10(x+9)) + 2$
-
-   Key characteristics:
-
-   - Amplitude: $\boxed{3}$
-   - Period: $T = \dfrac{2\pi}{10} = \boxed{\dfrac{\pi}{5}}$
-   - Phase shift: $x+9 = x-(-9)$  \\
-     $\Rightarrow$ shift $\boxed{9\ \text{units left}}$
-   - Vertical shift / axis: $\boxed{y = 2}$
-   - Max value: $2+3 = 5$; min value: $2-3 = -1$.
-
-   Over one period from $x = -9$ to $x = -9 + \dfrac{\pi}{5}$, mark:
-
-   - $(-9, -1)$ (minimum)
-   - $\left(-9 + \dfrac{\pi}{10}, 5\right)$ (maximum)
-   - $\left(-9 + \dfrac{\pi}{5}, -1\right)$ (minimum)
-
-   Draw a cosine wave through these points around the axis $y=2$ to complete the sketch.
